@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: deobf.minecraft-flux:mcflux:3.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/deobf.minecraft-flux/mcflux/3.1.1/647cf66d4671899cbae1997865dd551f08af9cb/mcflux-3.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/deobf.minecraft-flux/mcflux/3.1.1/5a5085b03eba0d29982e36ebb549561c2fb12c58/mcflux-3.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
