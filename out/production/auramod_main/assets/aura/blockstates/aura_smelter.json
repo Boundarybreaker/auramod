@@ -1,0 +1,11 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "aura:aura_smelter"
+		},
+		"inventory": {
+			"model": "aura:aura_smelter_item"
+		}
+	}
+}

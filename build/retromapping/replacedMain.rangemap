@@ -1,0 +1,330 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "space/bbkr/aura/Aura.java" md5: 00f5222b7c6550093e615c5109fb12fa
+Cache Hit!
+@|space/bbkr/aura/Aura.java|8|23|space.bbkr.aura|package|space.bbkr.aura|(file)
+Class Start: space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1058|1061|Mod|class|net.minecraftforge.fml.common.Mod
+   @|space/bbkr/aura/Aura.java|1062|1067|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|space/bbkr/aura/Aura.java|1070|1074|Aura|class|space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1075|1080|modId|field|space.bbkr.aura.Aura|modId
+   @|space/bbkr/aura/Aura.java|1082|1086|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|space/bbkr/aura/Aura.java|1089|1093|Aura|class|space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1094|1098|name|field|space.bbkr.aura.Aura|name
+   @|space/bbkr/aura/Aura.java|1100|1107|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|space/bbkr/aura/Aura.java|1110|1114|Aura|class|space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1115|1122|version|field|space.bbkr.aura.Aura|version
+   @|space/bbkr/aura/Aura.java|1137|1141|Aura|class|space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1169|1175|String|class|java.lang.String
+   @|space/bbkr/aura/Aura.java|1169|1175|String|class|java.lang.String
+   @|space/bbkr/aura/Aura.java|1176|1181|modId|field|space.bbkr.aura.Aura|modId|
+   @|space/bbkr/aura/Aura.java|1216|1222|String|class|java.lang.String
+   @|space/bbkr/aura/Aura.java|1216|1222|String|class|java.lang.String
+   @|space/bbkr/aura/Aura.java|1223|1227|name|field|space.bbkr.aura.Aura|name|
+   @|space/bbkr/aura/Aura.java|1262|1268|String|class|java.lang.String
+   @|space/bbkr/aura/Aura.java|1262|1268|String|class|java.lang.String
+   @|space/bbkr/aura/Aura.java|1269|1276|version|field|space.bbkr.aura.Aura|version|
+   @|space/bbkr/aura/Aura.java|1330|1334|Aura|class|space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1292|1304|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|space/bbkr/aura/Aura.java|1305|1310|modId|field|space.bbkr.aura.Aura|modId
+   @|space/bbkr/aura/Aura.java|1330|1334|Aura|class|space.bbkr.aura.Aura
+   @|space/bbkr/aura/Aura.java|1335|1343|instance|field|space.bbkr.aura.Aura|instance|
+   @|space/bbkr/aura/Aura.java|1480|1491|CommonProxy|class|space.bbkr.aura.proxy.CommonProxy
+   @|space/bbkr/aura/Aura.java|1351|1361|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|space/bbkr/aura/Aura.java|1362|1372|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|space/bbkr/aura/Aura.java|1412|1422|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|space/bbkr/aura/Aura.java|1480|1491|CommonProxy|class|space.bbkr.aura.proxy.CommonProxy
+   @|space/bbkr/aura/Aura.java|1492|1497|proxy|field|space.bbkr.aura.Aura|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|space/bbkr/aura/Aura.java|1572|1577|event|param|space.bbkr.aura.Aura|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|space/bbkr/aura/Aura.java|1505|1521|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|space/bbkr/aura/Aura.java|1538|1545|preInit|method|space.bbkr.aura.Aura|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|space/bbkr/aura/Aura.java|1546|1571|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|space/bbkr/aura/Aura.java|1589|1595|System|class|java.lang.System
+      @|space/bbkr/aura/Aura.java|1596|1599|out|field|java.lang.System|out
+      @|space/bbkr/aura/Aura.java|1600|1607|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|space/bbkr/aura/Aura.java|1608|1612|name|field|space.bbkr.aura.Aura|name
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|space/bbkr/aura/Aura.java|1705|1710|event|param|space.bbkr.aura.Aura|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|space/bbkr/aura/Aura.java|1644|1660|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|space/bbkr/aura/Aura.java|1677|1681|init|method|space.bbkr.aura.Aura|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|space/bbkr/aura/Aura.java|1682|1704|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|space/bbkr/aura/Aura.java|1796|1801|event|param|space.bbkr.aura.Aura|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|space/bbkr/aura/Aura.java|1727|1743|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|space/bbkr/aura/Aura.java|1760|1768|postInit|method|space.bbkr.aura.Aura|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|space/bbkr/aura/Aura.java|1769|1795|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Class Start: space.bbkr.aura.Aura.RegistrationHandler
+      @|space/bbkr/aura/Aura.java|1822|1844|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|space/bbkr/aura/Aura.java|1869|1888|RegistrationHandler|class|space.bbkr.aura.Aura.RegistrationHandler
+      Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|space/bbkr/aura/Aura.java|1986|1991|event|param|space.bbkr.aura.Aura.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|space/bbkr/aura/Aura.java|1901|1915|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|space/bbkr/aura/Aura.java|1943|1956|registerItems|method|space.bbkr.aura.Aura.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|space/bbkr/aura/Aura.java|1957|1979|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|space/bbkr/aura/Aura.java|1980|1984|Item|class|net.minecraft.item.Item
+         @|space/bbkr/aura/Aura.java|2007|2015|ModItems|class|space.bbkr.aura.item.ModItems
+         @|space/bbkr/aura/Aura.java|2016|2024|register|method|space.bbkr.aura.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|space/bbkr/aura/Aura.java|2025|2030|event|param|space.bbkr.aura.Aura.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|space/bbkr/aura/Aura.java|2031|2042|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|space/bbkr/aura/Aura.java|2059|2068|ModBlocks|class|space.bbkr.aura.block.ModBlocks
+         @|space/bbkr/aura/Aura.java|2069|2087|registerItemBlocks|method|space.bbkr.aura.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|space/bbkr/aura/Aura.java|2088|2093|event|param|space.bbkr.aura.Aura.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|space/bbkr/aura/Aura.java|2094|2105|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|space/bbkr/aura/Aura.java|2206|2211|event|param|space.bbkr.aura.Aura.RegistrationHandler|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+         @|space/bbkr/aura/Aura.java|2130|2144|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|space/bbkr/aura/Aura.java|2172|2186|registerModels|method|space.bbkr.aura.Aura.RegistrationHandler|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|space/bbkr/aura/Aura.java|2187|2205|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+         @|space/bbkr/aura/Aura.java|2227|2235|ModItems|class|space.bbkr.aura.item.ModItems
+         @|space/bbkr/aura/Aura.java|2236|2250|registerModels|method|space.bbkr.aura.item.ModItems|registerModels|()V
+         @|space/bbkr/aura/Aura.java|2266|2275|ModBlocks|class|space.bbkr.aura.block.ModBlocks
+         @|space/bbkr/aura/Aura.java|2276|2290|registerModels|method|space.bbkr.aura.block.ModBlocks|registerModels|()V
+      Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|space/bbkr/aura/Aura.java|2402|2407|event|param|space.bbkr.aura.Aura.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|space/bbkr/aura/Aura.java|2315|2329|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|space/bbkr/aura/Aura.java|2357|2371|registerBlocks|method|space.bbkr.aura.Aura.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|space/bbkr/aura/Aura.java|2372|2394|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|space/bbkr/aura/Aura.java|2395|2400|Block|class|net.minecraft.block.Block
+         @|space/bbkr/aura/Aura.java|2423|2432|ModBlocks|class|space.bbkr.aura.block.ModBlocks
+         @|space/bbkr/aura/Aura.java|2433|2441|register|method|space.bbkr.aura.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|space/bbkr/aura/Aura.java|2442|2447|event|param|space.bbkr.aura.Aura.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|space/bbkr/aura/Aura.java|2448|2459|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : space.bbkr.aura.Aura.RegistrationHandler
+Class End  : space.bbkr.aura.Aura
+endProcessing "space/bbkr/aura/Aura.java"
+
+startProcessing "space/bbkr/aura/block/BlockBase.java" md5: 26b274f2469bb8115af5e95621797a1e
+Cache Hit!
+@|space/bbkr/aura/block/BlockBase.java|8|29|space.bbkr.aura.block|package|space.bbkr.aura.block|(file)
+Class Start: space.bbkr.aura.block.BlockBase
+   @|space/bbkr/aura/block/BlockBase.java|271|280|BlockBase|class|space.bbkr.aura.block.BlockBase
+   @|space/bbkr/aura/block/BlockBase.java|289|294|Block|class|net.minecraft.block.Block
+   @|space/bbkr/aura/block/BlockBase.java|312|318|String|class|java.lang.String
+   @|space/bbkr/aura/block/BlockBase.java|312|318|String|class|java.lang.String
+   @|space/bbkr/aura/block/BlockBase.java|319|323|name|field|space.bbkr.aura.block.BlockBase|name|
+   Method Start: BlockBase(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|space/bbkr/aura/block/BlockBase.java|356|364|material|param|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|space/bbkr/aura/block/BlockBase.java|373|377|name|param|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|space/bbkr/aura/block/BlockBase.java|337|346|BlockBase|method|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|space/bbkr/aura/block/BlockBase.java|347|355|Material|class|net.minecraft.block.material.Material
+      @|space/bbkr/aura/block/BlockBase.java|366|372|String|class|java.lang.String
+      @|space/bbkr/aura/block/BlockBase.java|395|403|material|param|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|space/bbkr/aura/block/BlockBase.java|420|424|name|field|space.bbkr.aura.block.BlockBase|name
+      @|space/bbkr/aura/block/BlockBase.java|427|431|name|param|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|space/bbkr/aura/block/BlockBase.java|442|460|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|space/bbkr/aura/block/BlockBase.java|461|465|name|param|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|space/bbkr/aura/block/BlockBase.java|476|491|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|space/bbkr/aura/block/BlockBase.java|492|496|name|param|space.bbkr.aura.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+   Method End: BlockBase(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|space/bbkr/aura/block/BlockBase.java|545|554|itemBlock|param|space.bbkr.aura.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V|itemBlock|0
+      @|space/bbkr/aura/block/BlockBase.java|522|539|registerItemModel|method|space.bbkr.aura.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|space/bbkr/aura/block/BlockBase.java|540|544|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/block/BlockBase.java|566|570|Aura|class|space.bbkr.aura.Aura
+      @|space/bbkr/aura/block/BlockBase.java|571|576|proxy|field|space.bbkr.aura.Aura|proxy
+      @|space/bbkr/aura/block/BlockBase.java|577|597|registerItemRenderer|method|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|space/bbkr/aura/block/BlockBase.java|598|607|itemBlock|param|space.bbkr.aura.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V|itemBlock|0
+      @|space/bbkr/aura/block/BlockBase.java|612|616|name|field|space.bbkr.aura.block.BlockBase|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+   Method Start: createItemBlock()Lnet/minecraft/item/Item;
+      @|space/bbkr/aura/block/BlockBase.java|637|641|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/block/BlockBase.java|642|657|createItemBlock|method|space.bbkr.aura.block.BlockBase|createItemBlock|()Lnet/minecraft/item/Item;
+      @|space/bbkr/aura/block/BlockBase.java|681|690|ItemBlock|class|net.minecraft.item.ItemBlock
+   Method End: createItemBlock()Lnet/minecraft/item/Item;
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockBase;
+      @|space/bbkr/aura/block/BlockBase.java|768|771|tab|param|space.bbkr.aura.block.BlockBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockBase;|tab|0
+      @|space/bbkr/aura/block/BlockBase.java|710|718|Override|class|java.lang.Override
+      @|space/bbkr/aura/block/BlockBase.java|730|739|BlockBase|class|space.bbkr.aura.block.BlockBase
+      @|space/bbkr/aura/block/BlockBase.java|740|754|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|space/bbkr/aura/block/BlockBase.java|755|767|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|space/bbkr/aura/block/BlockBase.java|788|802|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|space/bbkr/aura/block/BlockBase.java|803|806|tab|param|space.bbkr.aura.block.BlockBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockBase;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockBase;
+Class End  : space.bbkr.aura.block.BlockBase
+endProcessing "space/bbkr/aura/block/BlockBase.java"
+
+startProcessing "space/bbkr/aura/block/BlockMachine.java" md5: c8644b301e160a802c113676a244e991
+@|space/bbkr/aura/block/BlockMachine.java|8|29|space.bbkr.aura.block|package|space.bbkr.aura.block|(file)
+Class Start: space.bbkr.aura.block.BlockMachine
+   @|space/bbkr/aura/block/BlockMachine.java|139|151|BlockMachine|class|space.bbkr.aura.block.BlockMachine
+   @|space/bbkr/aura/block/BlockMachine.java|160|169|BlockBase|class|space.bbkr.aura.block.BlockBase
+   Method Start: BlockMachine(Ljava/lang/String;)V
+      @|space/bbkr/aura/block/BlockMachine.java|204|208|name|param|space.bbkr.aura.block.BlockMachine|BlockMachine|(Ljava/lang/String;)V|name|0
+      @|space/bbkr/aura/block/BlockMachine.java|184|196|BlockMachine|method|space.bbkr.aura.block.BlockMachine|BlockMachine|(Ljava/lang/String;)V
+      @|space/bbkr/aura/block/BlockMachine.java|197|203|String|class|java.lang.String
+      @|space/bbkr/aura/block/BlockMachine.java|226|234|Material|class|net.minecraft.block.material.Material
+      @|space/bbkr/aura/block/BlockMachine.java|235|239|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|space/bbkr/aura/block/BlockMachine.java|241|245|name|param|space.bbkr.aura.block.BlockMachine|BlockMachine|(Ljava/lang/String;)V|name|0
+      @|space/bbkr/aura/block/BlockMachine.java|257|268|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|space/bbkr/aura/block/BlockMachine.java|282|295|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+   Method End: BlockMachine(Ljava/lang/String;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockMachine;
+      @|space/bbkr/aura/block/BlockMachine.java|374|377|tab|param|space.bbkr.aura.block.BlockMachine|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockMachine;|tab|0
+      @|space/bbkr/aura/block/BlockMachine.java|313|321|Override|class|java.lang.Override
+      @|space/bbkr/aura/block/BlockMachine.java|333|345|BlockMachine|class|space.bbkr.aura.block.BlockMachine
+      @|space/bbkr/aura/block/BlockMachine.java|346|360|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|space/bbkr/aura/block/BlockMachine.java|361|373|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|space/bbkr/aura/block/BlockMachine.java|395|409|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|space/bbkr/aura/block/BlockMachine.java|410|413|tab|param|space.bbkr.aura.block.BlockMachine|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockMachine;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/block/BlockMachine;
+Class End  : space.bbkr.aura.block.BlockMachine
+endProcessing "space/bbkr/aura/block/BlockMachine.java"
+
+startProcessing "space/bbkr/aura/block/ModBlocks.java" md5: 746f63d0b47414125c2ce81ef5626946
+@|space/bbkr/aura/block/ModBlocks.java|8|29|space.bbkr.aura.block|package|space.bbkr.aura.block|(file)
+Class Start: space.bbkr.aura.block.ModBlocks
+   @|space/bbkr/aura/block/ModBlocks.java|355|364|ModBlocks|class|space.bbkr.aura.block.ModBlocks
+   @|space/bbkr/aura/block/ModBlocks.java|386|395|BlockBase|class|space.bbkr.aura.block.BlockBase
+   @|space/bbkr/aura/block/ModBlocks.java|386|395|BlockBase|class|space.bbkr.aura.block.BlockBase
+   @|space/bbkr/aura/block/ModBlocks.java|396|407|auraSmelter|field|space.bbkr.aura.block.ModBlocks|auraSmelter|
+   @|space/bbkr/aura/block/ModBlocks.java|414|426|BlockMachine|class|space.bbkr.aura.block.BlockMachine
+   @|space/bbkr/aura/block/ModBlocks.java|443|457|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|space/bbkr/aura/block/ModBlocks.java|458|470|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|space/bbkr/aura/block/ModBlocks.java|471|480|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+   Method Start: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|space/bbkr/aura/block/ModBlocks.java|538|546|registry|param|space.bbkr.aura.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|space/bbkr/aura/block/ModBlocks.java|507|515|register|method|space.bbkr.aura.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|space/bbkr/aura/block/ModBlocks.java|516|530|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|space/bbkr/aura/block/ModBlocks.java|531|536|Block|class|net.minecraft.block.Block
+      @|space/bbkr/aura/block/ModBlocks.java|558|566|registry|param|space.bbkr.aura.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|space/bbkr/aura/block/ModBlocks.java|567|578|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|space/bbkr/aura/block/ModBlocks.java|596|607|auraSmelter|field|space.bbkr.aura.block.ModBlocks|auraSmelter
+   Method End: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerItemBlocks(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|space/bbkr/aura/block/ModBlocks.java|689|697|registry|param|space.bbkr.aura.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|space/bbkr/aura/block/ModBlocks.java|649|667|registerItemBlocks|method|space.bbkr.aura.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|space/bbkr/aura/block/ModBlocks.java|668|682|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|space/bbkr/aura/block/ModBlocks.java|683|687|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/block/ModBlocks.java|709|717|registry|param|space.bbkr.aura.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|space/bbkr/aura/block/ModBlocks.java|718|729|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|space/bbkr/aura/block/ModBlocks.java|747|758|auraSmelter|field|space.bbkr.aura.block.ModBlocks|auraSmelter
+      @|space/bbkr/aura/block/ModBlocks.java|759|774|createItemBlock|method|space.bbkr.aura.block.BlockBase|createItemBlock|()Lnet/minecraft/item/Item;
+   Method End: registerItemBlocks(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerModels()V
+      @|space/bbkr/aura/block/ModBlocks.java|818|832|registerModels|method|space.bbkr.aura.block.ModBlocks|registerModels|()V
+      @|space/bbkr/aura/block/ModBlocks.java|845|856|auraSmelter|field|space.bbkr.aura.block.ModBlocks|auraSmelter
+      @|space/bbkr/aura/block/ModBlocks.java|857|874|registerItemModel|method|space.bbkr.aura.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|space/bbkr/aura/block/ModBlocks.java|875|879|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/block/ModBlocks.java|880|896|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|space/bbkr/aura/block/ModBlocks.java|897|908|auraSmelter|field|space.bbkr.aura.block.ModBlocks|auraSmelter
+   Method End: registerModels()V
+Class End  : space.bbkr.aura.block.ModBlocks
+endProcessing "space/bbkr/aura/block/ModBlocks.java"
+
+startProcessing "space/bbkr/aura/item/ItemBase.java" md5: adf502d94527f33bb7e8d225722d5238
+Cache Hit!
+@|space/bbkr/aura/item/ItemBase.java|8|28|space.bbkr.aura.item|package|space.bbkr.aura.item|(file)
+Class Start: space.bbkr.aura.item.ItemBase
+   @|space/bbkr/aura/item/ItemBase.java|153|161|ItemBase|class|space.bbkr.aura.item.ItemBase
+   @|space/bbkr/aura/item/ItemBase.java|170|174|Item|class|net.minecraft.item.Item
+   @|space/bbkr/aura/item/ItemBase.java|192|198|String|class|java.lang.String
+   @|space/bbkr/aura/item/ItemBase.java|192|198|String|class|java.lang.String
+   @|space/bbkr/aura/item/ItemBase.java|199|203|name|field|space.bbkr.aura.item.ItemBase|name|
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|space/bbkr/aura/item/ItemBase.java|233|237|name|param|space.bbkr.aura.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|space/bbkr/aura/item/ItemBase.java|217|225|ItemBase|method|space.bbkr.aura.item.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|space/bbkr/aura/item/ItemBase.java|226|232|String|class|java.lang.String
+      @|space/bbkr/aura/item/ItemBase.java|254|258|name|field|space.bbkr.aura.item.ItemBase|name
+      @|space/bbkr/aura/item/ItemBase.java|261|265|name|param|space.bbkr.aura.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|space/bbkr/aura/item/ItemBase.java|275|293|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|space/bbkr/aura/item/ItemBase.java|294|298|name|param|space.bbkr.aura.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|space/bbkr/aura/item/ItemBase.java|309|324|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|space/bbkr/aura/item/ItemBase.java|325|329|name|param|space.bbkr.aura.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|space/bbkr/aura/item/ItemBase.java|355|372|registerItemModel|method|space.bbkr.aura.item.ItemBase|registerItemModel|()V
+      @|space/bbkr/aura/item/ItemBase.java|385|389|Aura|class|space.bbkr.aura.Aura
+      @|space/bbkr/aura/item/ItemBase.java|390|395|proxy|field|space.bbkr.aura.Aura|proxy
+      @|space/bbkr/aura/item/ItemBase.java|396|416|registerItemRenderer|method|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|space/bbkr/aura/item/ItemBase.java|426|430|name|field|space.bbkr.aura.item.ItemBase|name
+   Method End: registerItemModel()V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/item/ItemBase;
+      @|space/bbkr/aura/item/ItemBase.java|502|505|tab|param|space.bbkr.aura.item.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/item/ItemBase;|tab|0
+      @|space/bbkr/aura/item/ItemBase.java|445|453|Override|class|java.lang.Override
+      @|space/bbkr/aura/item/ItemBase.java|465|473|ItemBase|class|space.bbkr.aura.item.ItemBase
+      @|space/bbkr/aura/item/ItemBase.java|474|488|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|space/bbkr/aura/item/ItemBase.java|489|501|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|space/bbkr/aura/item/ItemBase.java|523|537|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|space/bbkr/aura/item/ItemBase.java|538|541|tab|param|space.bbkr.aura.item.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/item/ItemBase;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lspace/bbkr/aura/item/ItemBase;
+Class End  : space.bbkr.aura.item.ItemBase
+endProcessing "space/bbkr/aura/item/ItemBase.java"
+
+startProcessing "space/bbkr/aura/item/ModItems.java" md5: 9ee9dc9758c61f304ba1095a82e1c39c
+Cache Hit!
+@|space/bbkr/aura/item/ModItems.java|8|28|space.bbkr.aura.item|package|space.bbkr.aura.item|(file)
+Class Start: space.bbkr.aura.item.ModItems
+   @|space/bbkr/aura/item/ModItems.java|177|185|ModItems|class|space.bbkr.aura.item.ModItems
+   @|space/bbkr/aura/item/ModItems.java|207|215|ItemBase|class|space.bbkr.aura.item.ItemBase
+   @|space/bbkr/aura/item/ModItems.java|207|215|ItemBase|class|space.bbkr.aura.item.ItemBase
+   @|space/bbkr/aura/item/ModItems.java|216|224|tempItem|field|space.bbkr.aura.item.ModItems|tempItem|
+   @|space/bbkr/aura/item/ModItems.java|231|239|ItemBase|class|space.bbkr.aura.item.ItemBase
+   @|space/bbkr/aura/item/ModItems.java|253|267|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+   @|space/bbkr/aura/item/ModItems.java|268|280|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|space/bbkr/aura/item/ModItems.java|281|290|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+   Method Start: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|space/bbkr/aura/item/ModItems.java|347|355|registry|param|space.bbkr.aura.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|space/bbkr/aura/item/ModItems.java|317|325|register|method|space.bbkr.aura.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|space/bbkr/aura/item/ModItems.java|326|340|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|space/bbkr/aura/item/ModItems.java|341|345|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/item/ModItems.java|367|375|registry|param|space.bbkr.aura.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|space/bbkr/aura/item/ModItems.java|376|387|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|space/bbkr/aura/item/ModItems.java|397|405|tempItem|field|space.bbkr.aura.item.ModItems|tempItem
+   Method End: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerModels()V
+      @|space/bbkr/aura/item/ModItems.java|447|461|registerModels|method|space.bbkr.aura.item.ModItems|registerModels|()V
+      @|space/bbkr/aura/item/ModItems.java|474|482|tempItem|field|space.bbkr.aura.item.ModItems|tempItem
+      @|space/bbkr/aura/item/ModItems.java|483|500|registerItemModel|method|space.bbkr.aura.item.ItemBase|registerItemModel|()V
+   Method End: registerModels()V
+Class End  : space.bbkr.aura.item.ModItems
+endProcessing "space/bbkr/aura/item/ModItems.java"
+
+startProcessing "space/bbkr/aura/proxy/ClientProxy.java" md5: da5ffeee5205ee845d5a0920d82fdc3f
+Cache Hit!
+@|space/bbkr/aura/proxy/ClientProxy.java|8|29|space.bbkr.aura.proxy|package|space.bbkr.aura.proxy|(file)
+Class Start: space.bbkr.aura.proxy.ClientProxy
+   @|space/bbkr/aura/proxy/ClientProxy.java|337|348|ClientProxy|class|space.bbkr.aura.proxy.ClientProxy
+   @|space/bbkr/aura/proxy/ClientProxy.java|357|368|CommonProxy|class|space.bbkr.aura.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|space/bbkr/aura/proxy/ClientProxy.java|427|431|item|param|space.bbkr.aura.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|space/bbkr/aura/proxy/ClientProxy.java|437|441|meta|param|space.bbkr.aura.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|space/bbkr/aura/proxy/ClientProxy.java|450|452|id|param|space.bbkr.aura.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|space/bbkr/aura/proxy/ClientProxy.java|376|384|Override|class|java.lang.Override
+      @|space/bbkr/aura/proxy/ClientProxy.java|401|421|registerItemRenderer|method|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|space/bbkr/aura/proxy/ClientProxy.java|422|426|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/proxy/ClientProxy.java|443|449|String|class|java.lang.String
+      @|space/bbkr/aura/proxy/ClientProxy.java|464|475|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|space/bbkr/aura/proxy/ClientProxy.java|476|506|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|space/bbkr/aura/proxy/ClientProxy.java|507|511|item|param|space.bbkr.aura.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|space/bbkr/aura/proxy/ClientProxy.java|513|517|meta|param|space.bbkr.aura.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|space/bbkr/aura/proxy/ClientProxy.java|523|544|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|space/bbkr/aura/proxy/ClientProxy.java|545|549|Aura|class|space.bbkr.aura.Aura
+      @|space/bbkr/aura/proxy/ClientProxy.java|550|555|modId|field|space.bbkr.aura.Aura|modId
+      @|space/bbkr/aura/proxy/ClientProxy.java|564|566|id|param|space.bbkr.aura.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : space.bbkr.aura.proxy.ClientProxy
+endProcessing "space/bbkr/aura/proxy/ClientProxy.java"
+
+startProcessing "space/bbkr/aura/proxy/CommonProxy.java" md5: 2778f3239ace6a49f11ffb0afea2f487
+Cache Hit!
+@|space/bbkr/aura/proxy/CommonProxy.java|8|29|space.bbkr.aura.proxy|package|space.bbkr.aura.proxy|(file)
+Class Start: space.bbkr.aura.proxy.CommonProxy
+   @|space/bbkr/aura/proxy/CommonProxy.java|78|89|CommonProxy|class|space.bbkr.aura.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|space/bbkr/aura/proxy/CommonProxy.java|134|138|item|param|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|space/bbkr/aura/proxy/CommonProxy.java|144|148|meta|param|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|space/bbkr/aura/proxy/CommonProxy.java|157|159|id|param|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|space/bbkr/aura/proxy/CommonProxy.java|108|128|registerItemRenderer|method|space.bbkr.aura.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|space/bbkr/aura/proxy/CommonProxy.java|129|133|Item|class|net.minecraft.item.Item
+      @|space/bbkr/aura/proxy/CommonProxy.java|150|156|String|class|java.lang.String
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : space.bbkr.aura.proxy.CommonProxy
+endProcessing "space/bbkr/aura/proxy/CommonProxy.java"
+

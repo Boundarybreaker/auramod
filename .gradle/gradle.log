@@ -1,6 +1,3 @@
-Download https://minecraft.curseforge.com/api/maven/fl/fl/2.1.1/fl-2.1.1.jar
-Download https://minecraft.curseforge.com/api/maven/fl/fl/2.1.1/fl-2.1.1-sources.jar
-
-CONFIGURE SUCCESSFUL
-
-Total time: 10.615 secs
+Etag download for http://files.minecraftforge.net/maven/de/oceanlabs/mcp/versions.json failed with code 403
+Etag download for http://export.mcpbot.bspk.rs/versions.json failed with code 403
+Etag download for http://files.minecraftforge.net/maven/net/minecraftforge/forge/json failed with code 403

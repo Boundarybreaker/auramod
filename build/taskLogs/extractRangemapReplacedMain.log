@@ -1,0 +1,32 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "space/bbkr/aura/Aura.java" md5: 00f5222b7c6550093e615c5109fb12fa
+Cache Hit!
+endProcessing "space/bbkr/aura/Aura.java"
+
+startProcessing "space/bbkr/aura/block/BlockBase.java" md5: 26b274f2469bb8115af5e95621797a1e
+Cache Hit!
+endProcessing "space/bbkr/aura/block/BlockBase.java"
+
+startProcessing "space/bbkr/aura/block/BlockMachine.java" md5: c8644b301e160a802c113676a244e991
+endProcessing "space/bbkr/aura/block/BlockMachine.java"
+
+startProcessing "space/bbkr/aura/block/ModBlocks.java" md5: 746f63d0b47414125c2ce81ef5626946
+endProcessing "space/bbkr/aura/block/ModBlocks.java"
+
+startProcessing "space/bbkr/aura/item/ItemBase.java" md5: adf502d94527f33bb7e8d225722d5238
+Cache Hit!
+endProcessing "space/bbkr/aura/item/ItemBase.java"
+
+startProcessing "space/bbkr/aura/item/ModItems.java" md5: 9ee9dc9758c61f304ba1095a82e1c39c
+Cache Hit!
+endProcessing "space/bbkr/aura/item/ModItems.java"
+
+startProcessing "space/bbkr/aura/proxy/ClientProxy.java" md5: da5ffeee5205ee845d5a0920d82fdc3f
+Cache Hit!
+endProcessing "space/bbkr/aura/proxy/ClientProxy.java"
+
+startProcessing "space/bbkr/aura/proxy/CommonProxy.java" md5: 2778f3239ace6a49f11ffb0afea2f487
+Cache Hit!
+endProcessing "space/bbkr/aura/proxy/CommonProxy.java"
+
