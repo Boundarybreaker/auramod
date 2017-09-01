@@ -1,74 +1,84 @@
-[21:56:55] [main/INFO]: Setting user: Player457
-[21:57:03] [main/WARN]: Skipping bad option: lastServer:
-[21:57:03] [main/INFO]: LWJGL Version: 2.9.2
-[21:57:11] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Aura, FMLFileResourcePack:Minecraft-Flux, FMLFileResourcePack:FL
-[21:57:17] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:57:17] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[21:57:17] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:57:17] [Thread-3/INFO]: OpenAL initialized.
-[21:57:17] [Sound Library Loader/INFO]: Sound engine started
-[21:57:26] [main/INFO]: Created: 512x512 textures-atlas
-[21:57:38] [main/WARN]: Skipping bad option: lastServer:
-[21:57:40] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[21:57:50] [Server thread/INFO]: Starting integrated minecraft server version 1.12
-[21:57:50] [Server thread/INFO]: Generating keypair
-[21:57:55] [Server thread/INFO]: Loaded 488 advancements
-[21:57:55] [Server thread/INFO]: Preparing start region for level 0
-[21:57:57] [Server thread/INFO]: Preparing spawn area: 0%
-[21:57:58] [Server thread/INFO]: Preparing spawn area: 6%
-[21:57:59] [Server thread/INFO]: Preparing spawn area: 49%
-[21:58:00] [Server thread/INFO]: Preparing spawn area: 98%
-[21:58:01] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:58:08] [Server thread/INFO]: Player457[local:E:3f2a8c1c] logged in with entity id 334 at (229.3175264717151, 74.0, 241.1757435945212)
-[21:58:08] [Server thread/INFO]: Player457 joined the game
-[21:58:12] [Server thread/INFO]: Saving and pausing game...
-[21:58:12] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
-[21:58:12] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
-[21:58:12] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
-[21:58:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4752ms behind, skipping 95 tick(s)
-[21:58:14] [Server thread/INFO]: Saving and pausing game...
-[21:58:14] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
-[21:58:15] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
-[21:58:15] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
-[21:58:21] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:21] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:22] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:22] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:22] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:23] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:24] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:24] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:26] [Server thread/INFO]: Saving and pausing game...
-[21:58:26] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
-[21:58:26] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
-[21:58:26] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
-[21:58:39] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:39] [main/INFO]: [CHAT] You found a note. It reads: "If you are reading this, then the test worked!"
-[21:58:40] [Server thread/INFO]: Saving and pausing game...
-[21:58:40] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
-[21:58:40] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
-[21:58:40] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
-[21:58:46] [Server thread/INFO]: Saving and pausing game...
-[21:58:46] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
-[21:58:46] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
-[21:58:46] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
-[21:58:47] [Server thread/INFO]: Stopping server
-[21:58:47] [Server thread/INFO]: Saving players
-[21:58:47] [Server thread/INFO]: Player457 lost connection: Disconnected
-[21:58:47] [Server thread/INFO]: Player457 left the game
-[21:58:47] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[21:58:47] [Server thread/INFO]: Saving worlds
-[21:58:47] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
-[21:58:47] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
-[21:58:47] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
-[21:58:50] [main/INFO]: Stopping!
-[21:58:50] [main/INFO]: SoundSystem shutting down...
-[21:58:50] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[22:24:27] [main/INFO]: Setting user: Player185
+[22:24:42] [main/WARN]: Skipping bad option: lastServer:
+[22:24:42] [main/INFO]: LWJGL Version: 2.9.2
+[22:24:52] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Aura, FMLFileResourcePack:Minecraft-Flux, FMLFileResourcePack:FL
+[22:24:59] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:24:59] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[22:24:59] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:25:00] [Thread-3/INFO]: OpenAL initialized.
+[22:25:00] [Sound Library Loader/INFO]: Sound engine started
+[22:25:08] [main/INFO]: Created: 512x512 textures-atlas
+[22:25:13] [main/WARN]: Skipping bad option: lastServer:
+[22:25:15] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[22:25:26] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[22:25:26] [Server thread/INFO]: Generating keypair
+[22:25:29] [Server thread/INFO]: Loaded 488 advancements
+[22:25:29] [Server thread/INFO]: Preparing start region for level 0
+[22:25:30] [Server thread/INFO]: Preparing spawn area: 0%
+[22:25:31] [Server thread/INFO]: Preparing spawn area: 33%
+[22:25:32] [Server thread/INFO]: Preparing spawn area: 76%
+[22:25:33] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:25:39] [Server thread/INFO]: Player185[local:E:a7993fb4] logged in with entity id 332 at (228.88359505160764, 74.68878763567115, 241.6735289750895)
+[22:25:40] [Server thread/INFO]: Player185 joined the game
+[22:25:42] [Server thread/INFO]: Saving and pausing game...
+[22:25:42] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
+[22:25:43] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
+[22:25:43] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
+[22:25:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3580ms behind, skipping 71 tick(s)
+[22:25:45] [Server thread/INFO]: Saving and pausing game...
+[22:25:45] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
+[22:25:45] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
+[22:25:45] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
+[22:25:50] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@3209e41a[id=8c6477df-589c-387e-8235-e07170c95726,name=Player185,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3172) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[22:26:00] [Server thread/INFO]: Saving and pausing game...
+[22:26:00] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
+[22:26:01] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
+[22:26:01] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
+[22:26:18] [Server thread/INFO]: Saving and pausing game...
+[22:26:18] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
+[22:26:18] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
+[22:26:18] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
+[22:26:26] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.26.26.png
+[22:26:37] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.26.37.png
+[22:26:41] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.26.41.png
+[22:26:48] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.26.48.png
+[22:26:58] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.26.58.png
+[22:27:05] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.27.05.png
+[22:27:12] [main/INFO]: [CHAT] Saved screenshot as 2017-08-31_22.27.11.png
+[22:27:13] [Server thread/INFO]: Saving and pausing game...
+[22:27:13] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
+[22:27:14] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
+[22:27:14] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
+[22:27:15] [Server thread/INFO]: Stopping server
+[22:27:15] [Server thread/INFO]: Saving players
+[22:27:15] [Server thread/INFO]: Player185 lost connection: Disconnected
+[22:27:15] [Server thread/INFO]: Player185 left the game
+[22:27:15] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:27:15] [Server thread/INFO]: Saving worlds
+[22:27:15] [Server thread/INFO]: Saving chunks for level 'Test'/overworld
+[22:27:15] [Server thread/INFO]: Saving chunks for level 'Test'/the_nether
+[22:27:15] [Server thread/INFO]: Saving chunks for level 'Test'/the_end
+[22:27:21] [main/INFO]: Stopping!
+[22:27:21] [main/INFO]: SoundSystem shutting down...
+[22:27:21] [main/WARN]: Author: Paul Lamb, www.paulscode.com

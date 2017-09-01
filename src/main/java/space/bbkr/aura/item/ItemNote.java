@@ -24,7 +24,9 @@ public class ItemNote extends ItemBase {
 
 
     public EnumActionResult onItemUse(EntityPlayer p, World w, BlockPos pos, EnumHand h, EnumFacing f, float x, float y, float z) {
-        p.sendMessage(new TextComponentTranslation("aura.note.start"));
+        if(!w.isRemote) {
+            p.sendMessage(new TextComponentTranslation("aura.note.start"));
+        }
         return EnumActionResult.SUCCESS;
     }
 

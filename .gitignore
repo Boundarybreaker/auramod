@@ -23,3 +23,7 @@ run/saves/Test/session.lock
 run/usercache.json
 
 run/usernamecache.json
+
+run/saves/Test/DIM1/data/villages_end.dat
+
+run/*
