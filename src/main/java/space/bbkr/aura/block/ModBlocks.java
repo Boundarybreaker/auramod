@@ -1,34 +1,36 @@
 package space.bbkr.aura.block;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraft.creativetab.CreativeTabs;
-import space.bbkr.aura.Aura;
 
 
 public class ModBlocks {
 
-    public static BlockMachine auraSmelter = new BlockMachine("aura_smelter").setCreativeTab(Aura.creativeTab);
-    public static BlockMachine smokestack = new BlockMachine("smokestack").setCreativeTab(Aura.creativeTab);
+    public static BlockReactor crystalReactor = new BlockReactor();
+    public static BlockSmokestack smokestack = new BlockSmokestack();
 
     public static void register(IForgeRegistry<Block> registry) {
         registry.registerAll(
-                auraSmelter,
+                crystalReactor,
                 smokestack
         );
+        GameRegistry.registerTileEntity(crystalReactor.getTileEntityClass(), crystalReactor.getRegistryName().toString());
+        GameRegistry.registerTileEntity(smokestack.getTileEntityClass(), smokestack.getRegistryName().toString());
     }
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry) {
         registry.registerAll(
-                auraSmelter.createItemBlock(),
+                crystalReactor.createItemBlock(),
                 smokestack.createItemBlock()
         );
     }
 
     public static void registerModels() {
-        auraSmelter.registerItemModel(Item.getItemFromBlock(auraSmelter));
+        crystalReactor.registerItemModel(Item.getItemFromBlock(crystalReactor));
         smokestack.registerItemModel(Item.getItemFromBlock(smokestack));
     }
 }

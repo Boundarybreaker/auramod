@@ -13,6 +13,6 @@ public class AuraTab extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(ModBlocks.auraSmelter);
+        return new ItemStack(ModBlocks.crystalReactor);
     }
 }

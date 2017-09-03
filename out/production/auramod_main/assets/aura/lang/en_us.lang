@@ -1,4 +1,4 @@
-tile.aura_smelter.name=Aura Smelter
+tile.crystal_reactor.name=Crystal Reactor
 tile.smokestack.name=Aura Smokestack
 itemGroup.aura=Aura
 aura.note.start=You found a note. It reads: "If you are reading this, then the test worked!"

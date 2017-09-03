@@ -5,7 +5,7 @@
 			"model": "aura:smokestack"
 		},
 		"inventory": {
-			"model": "aura:smokestack"
+			"model": "aura:smokestack_item"
 		}
 	}
 }

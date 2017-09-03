@@ -13,7 +13,6 @@ import space.bbkr.aura.Aura;
 
 public class ItemNote extends ItemBase {
 
-
     protected String name;
 
     public ItemNote(String name) {
@@ -22,13 +21,10 @@ public class ItemNote extends ItemBase {
         setCreativeTab(Aura.creativeTab);
     }
 
-
     public EnumActionResult onItemUse(EntityPlayer p, World w, BlockPos pos, EnumHand h, EnumFacing f, float x, float y, float z) {
         if(!w.isRemote) {
             p.sendMessage(new TextComponentTranslation("aura.note.start"));
         }
         return EnumActionResult.SUCCESS;
     }
-
-
 }

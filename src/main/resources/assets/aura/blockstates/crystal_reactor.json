@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "aura:crystal_reactor"
+		},
+		"inventory": {
+			"model": "aura:crystal_reactor_item"
+		},
+		"f=north,m=0": {"model": "aura:crystal_reactor"},
+		"f=south,m=0": {"model": "aura:crystal_reactor", "y": 180},
+		"f=west,m=0": {"model": "aura:crystal_reactor", "y": 270},
+		"f=east,m=0": {"model": "aura:crystal_reactor", "y": 90},
+		"f=up,m=0": {"model": "aura:crystal_reactor"},
+		"f=down,m=0": {"model": "aura:crystal_reactor"},
+		"f=north,m=1": {"model": "aura:crystal_reactor_full"},
+		"f=south,m=1": {"model": "aura:crystal_reactor_full", "y": 180},
+		"f=west,m=1": {"model": "aura:crystal_reactor_full", "y": 270},
+		"f=east,m=1": {"model": "aura:crystal_reactor_full", "y": 90},
+		"f=up,m=1": {"model": "aura:crystal_reactor_full"},
+		"f=down,m=1": {"model": "aura:crystal_reactor_full"}
+	}
+}

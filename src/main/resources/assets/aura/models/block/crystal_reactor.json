@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"south": "aura:blocks/smeltery_south",
-		"north": "aura:blocks/smeltery_north",
-		"east": "aura:blocks/smeltery_east",
-		"west": "aura:blocks/smeltery_west",
-		"top": "aura:blocks/smeltery_up",
-		"bottom": "aura:blocks/smeltery_down",
+		"south": "aura:blocks/reactor_south",
+		"north": "aura:blocks/reactor_north",
+		"east": "aura:blocks/reactor_east",
+		"west": "aura:blocks/reactor_west",
+		"top": "aura:blocks/reactor_up",
+		"bottom": "aura:blocks/reactor_down",
 		"water": "blocks/water_still",
-		"particle": "aura:blocks/smeltery_down"
+		"particle": "aura:blocks/reactor_down"
 	},
 	"elements": [
 		{
@@ -42,12 +42,9 @@
 			"from": [2, 3, 14],
 			"to": [14, 16, 15],
 			"faces": {
-				"north": {
-					"uv": [2, 0, 14, 13],
-					"texture": "#south"
-				},
+				"north": {"uv": [2, 0, 14, 13], "texture": "south"},
 				"east": {"uv": [1, 0, 2, 13], "texture": "east"},
-				"south": {"uv": [2, 0, 14, 13], "texture": "west"},
+				"south": {"uv": [2, 0, 14, 13], "texture": "south"},
 				"west": {"uv": [14, 0, 15, 13], "texture": "west"},
 				"up": {"uv": [2, 1, 14, 2], "texture": "top"},
 				"down": {"uv": [2, 14, 14, 15], "texture": "bottom"}
@@ -148,7 +145,7 @@
 					"texture": "#missing"
 				},
 				"west": {"uv": [2, 13, 3, 14], "texture": "east"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "top"},
 				"down": {"uv": [2, 1, 3, 2], "texture": "bottom"}
 			}
 		},
@@ -327,7 +324,7 @@
 			"from": [2, 7, 2],
 			"to": [14, 7, 14],
 			"faces": {
-				"up": {"uv": [0, 0, 1, 1], "texture": "#water"}
+				"up": {"uv": [0, 0, 14, 14], "texture": "water"}
 			}
 		}
 	],
