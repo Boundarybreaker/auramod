@@ -9,7 +9,10 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.item.Item;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.Minecraft;
 import space.bbkr.aura.Aura;
+import space.bbkr.aura.client.gui.GuiNote;
 
 public class ItemNote extends ItemBase {
 
@@ -23,7 +26,8 @@ public class ItemNote extends ItemBase {
 
     public EnumActionResult onItemUse(EntityPlayer p, World w, BlockPos pos, EnumHand h, EnumFacing f, float x, float y, float z) {
         if(!w.isRemote) {
-            p.sendMessage(new TextComponentTranslation("aura.note.start"));
+            Minecraft mc = Minecraft.getMinecraft();
+            mc.displayGuiScreen(new GuiNote());
         }
         return EnumActionResult.SUCCESS;
     }

@@ -9,6 +9,7 @@ import net.minecraftforge.items.ItemStackHandler;
 import net.minecraft.world.World;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
+import szewek.mcflux.tileentities.TileEntityWCEAware;
 
 import javax.annotation.Nullable;
 

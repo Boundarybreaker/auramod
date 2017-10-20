@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.world.World;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
@@ -17,10 +18,13 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.event.AttachCapabilitiesEvent;
 import space.bbkr.aura.block.ModBlocks;
 import space.bbkr.aura.item.ModItems;
 import space.bbkr.aura.proxy.CommonProxy;
 import space.bbkr.aura.client.AuraTab;
+import space.bbkr.aura.recipe.ModRecipes;
+import szewek.mcflux.fluxable.WorldChunkEnergy;
 
 @Mod(modid = Aura.modId, name = Aura.name, version = Aura.version)
 public class Aura {
@@ -43,7 +47,7 @@ public class Aura {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        ModRecipes.init();
     }
 
     @Mod.EventHandler
@@ -71,6 +75,11 @@ public class Aura {
         public static void registerBlocks(RegistryEvent.Register<Block> event) {
             ModBlocks.register(event.getRegistry());
         }
+
+        //@SubscribeEvent
+        //public static void wrapWCE(AttachCapabilitiesEvent<World> e) {
+        //    e.addCapability(MF_WORLD_CHUNK, new WorldChunkEnergy());
+        //}
 
     }
 

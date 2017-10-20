@@ -13,9 +13,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.properties.PropertyDirection;
-import net.minecraft.block.properties.PropertyInteger;
+import net.minecraft.block.properties.PropertyBoolean;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
 import net.minecraft.tileentity.TileEntity;
@@ -28,11 +27,12 @@ import javax.annotation.Nullable;
 
 
 public class BlockReactor extends BlockMachine<TileEntityReactor> {
-    private static final PropertyDirection FACING = PropertyDirection.create("f");
-    public static final PropertyInteger MODE = PropertyInteger.create("m", 0, 1);
+    public static PropertyDirection FACING = BlockHorizontal.FACING;
+    public static final PropertyBool FUEL = PropertyBool.create("fuel");
 
     public BlockReactor() {
         super(Material.ROCK, "crystal_reactor");
+        this.setDefaultState(blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(FUEL, false));
     }
 
     @Override
@@ -88,7 +88,7 @@ public class BlockReactor extends BlockMachine<TileEntityReactor> {
 
     @Override
     public IBlockState getStateForPlacement(World w, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer, EnumHand hand) {
-        return getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, placer)).withProperty(MODE, 0);
+        return getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, placer)).withProperty(FUEL, false);
     }
 
     @Override
@@ -97,11 +97,11 @@ public class BlockReactor extends BlockMachine<TileEntityReactor> {
     }
 
     @Override public IBlockState getStateFromMeta(int meta) {
-        return getDefaultState().withProperty(MODE, meta % 2).withProperty(FACING, EnumFacing.VALUES[(meta / 2) % 6]);
+        return getDefaultState().withProperty(FUEL, meta % 2).withProperty(FACING, EnumFacing.VALUES[(meta / 2) % 6]);
     }
 
     @Override public int getMetaFromState(IBlockState state) {
-        return state.getValue(MODE) + (2 * state.getValue(FACING).getIndex());
+        return state.getValue(FUEL) + (2 * state.getValue(FACING).getIndex());
     }
 
     @Override public IBlockState withRotation(IBlockState state, Rotation rot) {
@@ -113,6 +113,6 @@ public class BlockReactor extends BlockMachine<TileEntityReactor> {
     }
 
     @Override protected BlockStateContainer createBlockState() {
-        return new BlockStateContainer(this, FACING, MODE);
+        return new BlockStateContainer(this, FACING, FUEL);
     }
 }

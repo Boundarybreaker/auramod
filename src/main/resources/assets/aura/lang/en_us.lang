@@ -1,4 +1,7 @@
 tile.crystal_reactor.name=Crystal Reactor
 tile.smokestack.name=Aura Smokestack
+item.test_note.name=Note
+item.prismarine_cluster.name=Prismarine Cluster
+item.reactant_crystal.name=Reactant Crystal
 itemGroup.aura=Aura
 aura.note.start=You found a note. It reads: "If you are reading this, then the test worked!"
